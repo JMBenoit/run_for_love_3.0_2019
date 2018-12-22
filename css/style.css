@@ -1,0 +1,568 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+
+/********** Navbar **********/
+
+.navbar {
+  background: #c0392b;
+  height: 100px;
+}
+
+.navbar .container {
+  margin: auto;
+}
+
+#menu,#logo {
+  display: inline-flex;
+}
+
+#logo img {
+  height: 64px;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-flex;
+  margin: auto 25px auto 0;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: gray;
+}
+
+
+/********** Header **********/
+
+.header {
+  width: 100%;
+  height: calc(100% - 100px);
+  background: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-topper {
+  height: 100px;
+  background-image: url("../img/header_topper.png");
+  background-size: cover;
+  background-position: top;
+}
+
+#header-text {
+  color: white;
+  padding: 10px 0;
+}
+
+
+/********** Call To Action **********/
+
+.cta {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.cta btn-danger {
+  background-color: #c0392b;
+  color: white;
+}
+
+.cta a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/********** Last Year **********/
+
+.last-year {
+  background-color: #c0392b;
+  color: white;
+  align-items: center;
+  text-align: left;
+}
+
+.last-year .container {
+  padding: 75px 0;
+  vertical-align: middle;
+}
+
+.last-year .col-md-6 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.last-year img {
+  width: 100%;
+}
+
+
+/********** Donate **********/
+
+.father-bills {
+  background-color: white;
+  color: #c0392b;
+  text-align: left;
+}
+
+.father-bills .container {
+  padding: 75px 0;
+  vertical-align: middle;
+}
+
+.father-bills .col-md-6 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.father-bills img {
+  width: 100%;
+  margin: auto;
+}
+
+
+/********** Story **********/
+
+.story {
+  color: white;
+  background-image: url("../img/pic2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.story .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 75px 0;
+}
+
+
+/********** Race Info **********/
+
+.race-info .container {
+  padding: 75px 0;
+  color: #c0392b;
+  text-align: center;
+}
+
+.race-info i {
+  padding: 15px 0;
+}
+
+.race-info a {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+.race-info a:hover {
+  color: gray;
+}
+
+
+/********** Call To Action 2 **********/
+
+.cta2 {
+  width: 100%;
+  padding: 0 0 50px 0;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.cta2 btn-danger {
+  background-color: #c0392b;
+  color: white;
+}
+
+.cta2 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/********** Footer **********/
+
+.footer {
+  width: 100%;
+  background: #c0392b;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer li {
+  padding: 10px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: gray;
+}
+
+.footer .col-md-12 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.footer .form-field {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.footer textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+
+/********** Registration **********/
+.registration .header {
+  background: url("../img/hero_reg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.schedule {
+  background-color: #c0392b;
+  color: white;
+}
+
+.schedule .container  {
+  padding: 75px 0;
+}
+
+.schedule h2 {
+  text-align: center;
+}
+
+.schedule table {
+  margin: 0 auto;
+}
+
+.schedule td {
+  align-items: left;
+  padding: 20px;
+}
+
+.details {
+  background-color: white;
+  color: #c0392b;
+}
+
+.details .col-md-6 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.details .container  {
+  padding: 75px 0;
+  margin: auto;
+}
+
+.details img {
+  width: 100%;
+}
+
+.register {
+  background-color: #c0392b;
+  color: white;
+}
+
+.register .container  {
+  padding: 75px 0;
+}
+
+.register-form {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.register table {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.donate {
+  background-color: #c0392b;
+  color: white;
+}
+
+.donate .container  {
+  padding: 0 0 75px 0;
+}
+
+.donate-form {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.resources {
+  background-color: white;
+  color: #c0392b;
+}
+
+.resources .container  {
+  padding: 75px 0;
+}
+
+
+
+/********** Sponsors **********/
+.sponsors .header {
+  background: url("../img/hero_sponsor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sponsor-info {
+  background-color: white;
+  color: #c0392b;
+}
+
+.sponsor-info .container  {
+  padding: 75px 0;
+}
+
+.packages {
+  background-color: #c0392b;
+  color: white;
+}
+
+.packages .container {
+  padding: 75px 0;
+}
+
+.packages2 {
+  background-color: #c0392b;
+  color: white;
+}
+
+.packages2 .container {
+  padding: 0 0 75px 0;
+}
+
+.current-sponsors {
+  background-color: white;
+  color: #c0392b;
+  text-align: center;
+}
+
+.current-sponsors .container {
+  padding: 75px 0;
+}
+
+.current-sponsors h1 {
+  padding-bottom: 20px;
+}
+
+
+/********** Thank You Page **********/
+.thanks .header {
+  background: url("../img/thank_you.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.banner {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: white;
+  color: #c0392b;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+/********** Tablet **********/
+@media(max-width: 768px) {
+  #header-text {
+    padding: 0;
+  }
+}
+
+
+
+/********** Phone **********/
+@media(max-width: 425px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  #menu {
+    padding-left: 20px;
+  }
+
+  #menu li {
+    font-size: 12px;
+    margin-right: 18px;
+  }
+
+  .last-year img {
+    padding-bottom: 20px;
+  }
+
+  .last-year .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .father-bills .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .story .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .race-info .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .race-info .col-md-4 {
+    padding-bottom: 20px;
+  }
+
+  .race-info .col-md-4:last-of-type {
+    padding-bottom: 0px;
+  }
+
+  .footer .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer .col-md-3 {
+    padding-bottom: 20px;
+  }
+
+  .footer .col-md-6 {
+    padding-bottom: 20px;
+  }
+
+
+  /***** Registration *****/
+  .schedule .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .details .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .register .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .register form {
+    padding-top: 20px;
+  }
+
+  .donate .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .donate form {
+    padding-top: 20px;
+  }
+
+  .resources .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  /***** Sponsors *****/
+  .sponsor-info .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .packages .container {
+    padding: 75px 20px 0 20px;
+  }
+
+  .packages .col-md-6 {
+    padding-bottom: 50px;
+  }
+
+  .packages2 .container {
+    padding: 0 20px;
+  }
+
+  .packages2 .col-md-6 {
+    padding-bottom: 50px;
+  }
+
+  .last .container {
+    padding-bottom: 75px;
+  }
+
+  .current-sponsors .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+}

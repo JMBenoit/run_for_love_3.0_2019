@@ -1,0 +1,219 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+
+/********** Navbar **********/
+
+.navbar {
+  background: #c0392b;
+  height: 100px;
+}
+
+.navbar .container {
+  margin: auto;
+}
+
+#menu,#logo {
+  display: inline-flex;
+}
+
+#logo img {
+  height: 64px;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-flex;
+  margin: auto 25px auto 0;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: gray;
+}
+
+
+/********** Header **********/
+
+.header {
+  width: 100%;
+  height: calc(100% - 100px);
+  background: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-topper {
+  height: 100px;
+  background-image: url("../img/header_topper.png");
+  background-size: cover;
+  background-position: top;
+}
+
+#header-text {
+  color: white;
+  padding: 10px 0;
+}
+
+
+/********** Call To Action **********/
+
+.cta {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.cta btn-danger {
+  background-color: #c0392b;
+  color: white;
+}
+
+.cta a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/********** Last Year **********/
+
+.last-year {
+  width: 100%;
+  background-color: #c0392b;
+  color: white;
+  align-items: center;
+  text-align: left;
+}
+
+.last-year .container {
+  padding: 75px 0;
+  vertical-align: middle;
+}
+
+.last-year img {
+  width: 100%;
+}
+
+
+/********** Donate **********/
+
+.donate {
+  height: 75%;
+  background-color: white;
+}
+
+
+/********** Story **********/
+
+.story {
+  height: 75%;
+  color: white;
+  background-image: url("../img/pic2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.story .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+}
+
+
+/********** Picture **********/
+
+.picture{
+  height: 75%;
+  width: 100%;
+  background: url("../img/pic2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/********** Race Info **********/
+
+.race-info .container {
+  padding: 75px 0;
+  color: #c0392b;
+}
+
+
+/********** Call To Action 2 **********/
+
+.cta2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.cta2 btn-danger {
+  background-color: #c0392b;
+  color: white;
+}
+
+.cta2 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/********** Footer **********/
+
+.footer {
+  width: 100%;
+  background: #c0392b;
+  padding: 75px 0;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: gray;
+}
+
+.footer p {
+  text-align: right;
+}
