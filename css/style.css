@@ -499,6 +499,14 @@ h2 {
 
 
   /***** Registration *****/
+  .registration .header {
+    background: url("../img/hero_reg_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   .schedule .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -534,6 +542,14 @@ h2 {
 
 
   /***** Sponsors *****/
+  .sponsors .header {
+    background: url("../img/hero_sponsor_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   .sponsor-info .container {
     padding-left: 20px;
     padding-right: 20px;
