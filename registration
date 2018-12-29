@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114118464-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-114118464-1');
+    </script>
+
+    <title>Run For Love 5K</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property='og:image' content='http://www.runforlove5kma.com/img/run_for_love_meta.png'/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body class="registration">
+
+    <div class="navbar">
+      <div class="container">
+        <div class="row">
+          <div id="logo"><a href="./"><img src="img/run_for_love_logo_white.png" alt="Run For Love 5K Logo"></a></div>
+          <ul id="menu">
+            <li><a href="./">Home</a></li>
+            <li><a href="registration">Registration</a></li>
+            <li><a href="sponsors">Sponsors</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="header-topper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 id="header-text">Run For Love 5K</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="buffer"></div>
+
+    <div class="race-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Join us again this year as we continue to fight the stigma of substance use and addiction.</h2>
+          </div>
+          <div class="col-md-4">
+            <i class="far fa-calendar-alt fa-5x"></i>
+            <h3>Saturday June 22, 2019</h3>
+          </div>
+          <div class="col-md-4">
+            <a href="https://www.google.com/maps/place/Borderland+State+Park/@42.062652,-71.1667187,17z/data=!3m1!4b1!4m5!3m4!1s0x89e48872fd5a9dbd:0x41f3e6912ce32826!8m2!3d42.062648!4d-71.16453" target="_blank"><i class="fas fa-map-marker-alt fa-5x"></i></a>
+            <h3>Borderland State Park</h3>
+            <h4>Easton, MA</h4>
+          </div>
+          <div class="col-md-4">
+            <i class="far fa-clock fa-5x"></i>
+            <h3>8 AM</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Schedule</h2>
+            <table>
+              <tr>
+                <td>8am</td>
+                <td>Registration & Check-in</td>
+              </tr>
+              <tr>
+                <td>9am</td>
+                <td>Opening Ceremony</td>
+              </tr>
+              <tr>
+                <td>10am</td>
+                <td>5K Walk/Run Begins</td>
+              </tr>
+              <tr>
+                <td>11:30am</td>
+                <td>Plymouth, NH Cheer Team Performance</td>
+              </tr>
+              <tr>
+                <td>12pm</td>
+                <td>Closing Ceremony</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="details">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Details</h2>
+            <p>The Run For Love 5K is an annual event to help raise money to fight substance use and addiction.</p>
+            <ul>
+              <li>Held rain or shine</li>
+              <li>Walk or run - feel free to go at your own pace</li>
+              <li>Dogs are welcome</li>
+              <li>There will be a raffle booth and tickets sold at the event</li>
+              <li>Water will be provided at the start and finish, and at the halfway point.</li>
+              <li>Option to be timed with prizes for 1st, 2nd, and 3rd.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="img/course_map.PNG" alt="Course Map Picture">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="register">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Registration</h2>
+            <p>Registration is $25 if purchased online before May 31st. Otherwise, it is $30 and can be bought upon entry to the 5K.</p>
+            <p>With your registration, you will receive:</p>
+            <ul>
+              <li>1x Run For Love 5K T-shirt (If registered online before May 31st)</li>
+              <li>1x Raffle ticket</li>
+              <li>Lunch</li>
+              <li>View performance of the Plymouth, NH chear team</li>
+              <li>Listen to multiple stories from people who have faced and overcome substance abuse and/or addiction</li>
+              <li>Fight the stigma of substance abuse</li>
+              <li>Help those fighting addiction</li>
+            </ul>
+          </div>
+          <div class="col-md-6 register-form">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="D9WE46RLS6FZU">
+              <table>
+              <tr><td><input type="hidden" name="on0" value="Shirt Size">Shirt Size</td></tr><tr><td><select name="os0">
+              	<option value="Adult - S">Adult - S </option>
+              	<option value="Adult - M">Adult - M </option>
+              	<option value="Adult - L">Adult - L </option>
+              	<option value="Adult - XL">Adult - XL </option>
+              	<option value="Adult - 2XL">Adult - 2XL </option>
+              	<option value="Adult - 3XL">Adult - 3XL </option>
+              	<option value="Child - S">Child - S </option>
+              	<option value="Child - M">Child - M </option>
+              	<option value="Child - L">Child - L </option>
+              	<option value="Child - XL">Child - XL </option>
+              </select> </td></tr>
+              <tr><td><input type="hidden" name="on1" value="Registrant's Name">Registrant's Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+              </table>
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="donate">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Donate</h2>
+            <p>If you wish to support the Run For Love 5K, but cannot make it the run, you can do so by using the donate button.</p>
+          </div>
+          <div class="col-md-6 donate-form">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="QAZY8AB6V5AK4" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resources">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Resources</h2>
+            <p>How to run your first 5K: <a href="https://www.active.com/running/articles/how-to-run-your-first-5k" target="_blank">https://www.active.com/running/articles/how-to-run-your-first-5k</a></p>
+            <p>5K Training Schedule: <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/5k-run/art-20050962" target="_blank">https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/5k-run/art-20050962</a></p>
+            <p>Tips for running without stopping: <a href="https://www.verywellfit.com/how-to-run-a-5k-without-stopping-2911200" target="_blank">https://www.verywellfit.com/how-to-run-a-5k-without-stopping-2911200</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4>Menu</h4>
+              <ul id="menu">
+                <li><a href="./">Home</a></li>
+                <li><a href="registration">Registration</a></li>
+                <li><a href="sponsors">Sponsors</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Social</h4>
+              <a href="https://www.facebook.com/events/315930732232063/?active_tab=about" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+            </div>
+            <div class="col-md-6">
+              <h4>Contact Us</h4>
+              <form method="post" action="./php/process.php">
+                <input class="form-field" type="text" name="name" placeholder="Name" required>
+                <input class="form-field" type="email" name="email" placeholder="Email" required>
+                <input class="form-field" type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" cols="30" rows="5" placeholder="Message" required></textarea>
+                <input class="btn btn-light btn-sm" type="submit" name="submit" value="Send Message">
+              </form>
+            </div>
+            <div class="col-md-12">
+              <p><i class="far fa-copyright"></i> Run For Love 2018-2019. All Rights Reserved. Website created by Justin Benoit.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+
+</html>

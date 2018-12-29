@@ -151,7 +151,7 @@ h2 {
 
 .story {
   color: white;
-  background-image: url("../img/pic2.png");
+  background-image: url("../img/story_hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -259,6 +259,8 @@ h2 {
 
 /********** Registration **********/
 .registration .header {
+  width: 100%;
+  height: calc(100% - 100px);
   background: url("../img/hero_reg.jpg");
   background-size: cover;
   background-position: center;
@@ -358,6 +360,8 @@ h2 {
 
 /********** Sponsors **********/
 .sponsors .header {
+  width: 100%;
+  height: calc(100% - 100px);
   background: url("../img/hero_sponsor.jpg");
   background-size: cover;
   background-position: center;
@@ -428,6 +432,17 @@ h2 {
 
 
 
+/********** Submit Page **********/
+.submit .header {
+  background: url("../img/submit.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
 /********** Tablet **********/
 @media(max-width: 768px) {
   #header-text {
@@ -452,6 +467,15 @@ h2 {
     margin-right: 18px;
   }
 
+  .header {
+    background-attachment: local;
+    background-repeat: no-repeat;
+  }
+
+  .story {
+    background-attachment: local;
+  }
+
   .last-year img {
     padding-bottom: 20px;
   }
@@ -464,6 +488,10 @@ h2 {
   .father-bills .container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .father-bills img {
+    padding-top: 20px;
   }
 
   .story .container {
@@ -500,11 +528,11 @@ h2 {
 
   /***** Registration *****/
   .registration .header {
+    height: 100%;
     background: url("../img/hero_reg_2.jpg");
-    background-size: cover;
-    background-position: center;
+    background-attachment: local;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
   }
 
   .schedule .container {
@@ -543,11 +571,11 @@ h2 {
 
   /***** Sponsors *****/
   .sponsors .header {
+    height: 100%;
     background: url("../img/hero_sponsor_2.jpg");
-    background-size: cover;
-    background-position: center;
+    background-attachment: local;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
   }
 
   .sponsor-info .container {
