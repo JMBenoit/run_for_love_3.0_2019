@@ -407,7 +407,25 @@ h2 {
 }
 
 .current-sponsors h1 {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.current-sponsors table {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.current-sponsors tr {
+  width: 100%;
+}
+
+.current-sponsors td {
+  width: 50%;
+}
+
+.current-sponsors img {
+  height: 250px;
 }
 
 
@@ -606,6 +624,10 @@ h2 {
   .current-sponsors .container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .current-sponsors img {
+    height: 150px;
   }
 
 
